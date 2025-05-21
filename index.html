@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Smartest</title>
+    <link rel="stylesheet" href="styles/main_page.css" />
+  </head>
+  <body>
+    <div class="main_0">
+      <div class="main_1 Side_columns"></div>
+      <div class="main_1 centre_columns">
+        <div class="table_info">
+          <div class="personal_info">
+            <input type="file" class="ava" id="ava" />
+            <label for="ava" class="ava_label">
+              <img src="" alt="Аватар" class="avatar" id="avatar-img" />
+            </label>
+            <input type="text" placeholder="Ваш никнейм" class="nick_input" />
+          </div>
+
+          <div class="table_info_block">
+            <div class="score">Ваш счёт: <span class="res_score">0</span></div>
+            <div class="gamemode">Выбран <span id="gm_content_table"></span> режим</div>
+          </div>
+        </div>
+        <div class="button_block">
+          <button class="play main_but">ИГРАТЬ</button>
+          <button class="settings main_but">НАСТРОЙКИ</button>
+        </div>
+
+              <div class="game_block">
+        <div class="table_quest">
+                
+            </div>
+            <div class="bar_quest">
+                <div class="num_quest active_num_quest quest_num_1">1</div>
+                <div class="num_quest quest_num_2">2</div>
+                <div class="num_quest quest_num_3">3</div>
+                <div class="num_quest quest_num_4">4</div>
+                <div class="num_quest quest_num_5">5</div>
+                <div class="num_quest quest_num_6">6</div>
+                <div class="num_quest quest_num_7">7</div>
+                <div class="num_quest quest_num_8">8</div>
+                <div class="num_quest quest_num_9">9</div>
+                <div class="num_quest quest_num_10">10</div>
+                <div class="num_quest quest_num_11">11</div>
+                <div class="num_quest quest_num_12">12</div>
+                <div class="num_quest quest_num_13">13</div>
+                <div class="num_quest quest_num_14">14</div>
+                <div class="num_quest quest_num_15">15</div>
+            </div>
+            <div class="answers">
+                <div class="a_answer 1_answer answer">A:</div>
+                <div class="b_answer 2_answer answer">B:</div>
+                <div class="c_answer 3_answer answer">C:</div>
+                <div class="d_answer 4_answer answer">D:</div>
+            </div>
+
+            <div class="back">← Назад</div>
+            <div class="result_MW">
+              <div class="button_ok_result">Окей</div>
+            </div>
+      </div>
+    </div>
+
+
+
+      <div class="main_1 Side_columns"></div>
+    </div>
+
+    <div class="modal_window">
+      <div class="header_MW">
+        <span class="close_MW">×</span>
+        <div class="legend_MW">НАСТРОЙКИ</div>
+        <div class="tabs_wrapper_MW">
+          <div class="appearance tab_MW active_tab_MW">Оформление</div>
+          <div class="quest tab_MW">Вопросы</div>
+          <div class="gamemode_MW tab_MW">Режим игры</div>
+        </div>
+      </div>
+      <div class="contetnt_MW">
+        <div class="appearance_content">Скоро...</div>
+        <div class="quest_content">
+          <h1>Выберите темы вопросов<h1>
+          <ul class="checkbox_quest">
+            <li>
+              <input class="quest_form" id="kulture" type="checkbox" checked/>
+              <label class="quest_form" for="kulture">Культура</label>
+            </li>
+            <li>
+              <input class="quest_form" type="checkbox" id="mifologia" checked/>
+              <label class="quest_form" for="mifologia">Мифология</label>
+            </li>
+            <li>
+              <input class="quest_form" id="synce" type="checkbox" checked/>
+              <label class="quest_form" for="synce">Естественные науки</label>
+            </li>
+            <li>
+              <input class="quest_form" id="world" type="checkbox" checked/>
+              <label class="quest_form" for="world">Окружающий мир</label>
+            </li>
+          </ul>
+        </div>
+        <div class="gamemode_content">
+          <h1>Выберите режим</h1>
+          <ul class="checkbox_gm">
+            <li>
+              <input class="gm_form" name="gm" id="classick" type="radio" checked value="классический"/>
+              <label class="gm_form" for="classick">Классический</label>
+            </li>
+            <li>
+              <input class="gm_form" name="gm" type="radio" id="light" value="лёгкий"/>
+              <label class="gm_form" for="light">Лёгкий</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+        <button class="save_MW">Сохранить</button>
+      </div>
+    </div>
+
+    <script src="js/main_0.js"></script>
+  </body>
+</html>
