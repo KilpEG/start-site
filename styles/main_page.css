@@ -513,6 +513,18 @@ html, body {
     .centre_columns {
         width: 100%;
     }
+
+    .modal_window{
+        width: 90%;
+    }
+
+    .button_block {
+        width: 30%;
+    }
+
+    .table_info {
+        width: 85%;
+    }
   }
   
   /* Планшеты (от 577px до 768px) */
